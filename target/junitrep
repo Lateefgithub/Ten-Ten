@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="27.602955">
+<testcase classname="Search Feature" name="User is able to use the Search feature in Wikipedia" time="19.253835">
+<system-out><![CDATA[Given User is on the Wikipedia home page....................................passed
+When User searches for "Software" in English................................passed
+Then The first heading of the search results page matches "Software"........passed
+And Verify that the search results page is available in "Deutsch"...........passed
+And Navigate to the search results page in "Deutsch"........................passed
+And Validate that the search results page in the new language includes a link to the version in English.passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Feature" name="User is able to use the Search feature in Wikipedia 2" time="8.34912">
+<system-out><![CDATA[Given User is on the Wikipedia home page....................................passed
+When User searches for "Hardware" in English................................passed
+Then The first heading of the search results page matches "Hardware"........passed
+And Verify that the search results page is available in "Deutsch"...........passed
+And Navigate to the search results page in "Deutsch"........................passed
+And Validate that the search results page in the new language includes a link to the version in English.passed
+]]></system-out>
+</testcase>
+</testsuite>
